@@ -1,0 +1,58 @@
+:root {
+    --app-spacer: 30px;
+}
+
+.container{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+    box-sizing: border-box;
+}
+#second{
+    color: white;
+    font-size: 28px;
+    background: #3a989a;
+    margin: 0 0 var(--app-spacer);
+}
+#first{
+    color: #617777;
+    font-size: 30px;
+    margin: 0 0 var(--app-spacer);
+}
+
+.firstTable {
+    padding-top: 0;
+}
+
+table{
+    width: 100%;
+    padding: 10px
+}
+thead{
+    font-size:25px;
+    padding: 10px;
+}
+#secondTable {
+    border-collapse: collapse;
+}
+#secondTable tr:nth-of-type(odd) td,
+#secondTable tr:nth-of-type(odd) th {
+    background: #eaf5f5;
+}
+#secondTable thead tr:nth-of-type(odd) th {
+    background: transparent;
+    padding-bottom: 10px;
+}
+.option{
+    width: 100px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: right;
+}
+.description{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: left;
+}
+    
