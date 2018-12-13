@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 :root {
     --app-spacer: 30px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
@@ -12,11 +18,11 @@
 #second{
     color: white;
     font-size: 28px;
-    background: #3a989a;
+    background: #80c9d2;;
     margin: 0 0 var(--app-spacer);
 }
 #first{
-    color: #617777;
+    color: #26bdcf;
     font-size: 30px;
     margin: 0 0 var(--app-spacer);
 }
@@ -52,7 +58,7 @@ thead{
 }
 .description{
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 19px;
     text-align: left;
 }
     
